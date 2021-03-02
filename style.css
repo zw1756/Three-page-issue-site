@@ -11,7 +11,7 @@ html{
   margin: 0px;
 }
 #container{
-  background: rgb(171, 239, 248);
+  background: rgb(43，78，219);
   display: flex;
   flex-direction: column;
   align-content: space-between;
@@ -21,7 +21,7 @@ html{
 
 
 .banner {
-  background: rgb(172,202,237);
+  background: rgb(43，78，219);
   background: linear-gradient(180deg, rgba(172,202,237,1) 0%,
   rgba(171, 239, 248,1) 100%);
   padding: 5vmin;
@@ -35,7 +35,7 @@ html{
 .title {
 
   font-size: 18vmin;
-  color:#6fa8e9;
+  color:#374DA4;
 }
 
 .title2 {
@@ -113,7 +113,7 @@ html{
   /* page styling */
 
 .mainContainer{
-  background: rgb(171, 239, 248);
+  background: rgb(43，78，219);
   display: flex;
   flex-direction: column;
   align-content: space-between;
