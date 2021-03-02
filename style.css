@@ -3,7 +3,7 @@ body{
   height: 100%;
   padding: 0px;
   margin: 0px;
-  font-family: 'Shippori Mincho B1', serif;
+  font-family: 'Anton', serif;
 }
 html{
   height: 100%;
@@ -33,7 +33,7 @@ html{
 }
 
 .title {
-
+  font-family: 'Anton', sans-serif;
   font-size: 18vmin;
   color:#374DA4;
 }
@@ -42,7 +42,7 @@ html{
   text-align: center;
   margin-top: 2vmin;
   font-size:3vmin;
-  color:white;
+  color:#374DA4;
 
 }
 
