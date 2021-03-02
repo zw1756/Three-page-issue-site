@@ -1,0 +1,161 @@
+                /* index styling */
+body{
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Shippori Mincho B1', serif;
+}
+html{
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+#container{
+  background: rgb(171, 239, 248);
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  text-align: justify;
+}
+
+
+
+.banner {
+  background: rgb(172,202,237);
+  background: linear-gradient(180deg, rgba(172,202,237,1) 0%,
+  rgba(171, 239, 248,1) 100%);
+  padding: 5vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:35vmin;
+
+}
+
+.title {
+
+  font-size: 18vmin;
+  color:#6fa8e9;
+}
+
+.title2 {
+  text-align: center;
+  margin-top: 2vmin;
+  font-size:3vmin;
+  color:white;
+
+}
+
+.intro{
+  padding: 10vmin;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.introImage img{
+  width: 60vmin;
+
+}
+
+.content{
+  line-height: 2rem;
+  font-size: 2vmin;
+  margin-left: 3vmin;
+  padding: 2vmin;
+  color: #2B4059;
+}
+
+#seTitle {
+  text-align: center;
+  color:#6fa8e9;
+  margin-top: 3vmin;
+  margin-bottom: 3vmin;
+  font-size: 40px;
+  /* border-bottom: 3px solid #689DD9; */
+}
+
+.branch {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10vmin;
+
+}
+.branchImage img{
+  width: 55vmin;
+}
+
+
+.branchContent{
+  color:#2B4059;
+  line-height: 2rem;
+  font-size: 2vmin;
+  margin-left: 3vmin;
+  padding: 2vmin;
+}
+
+.social{
+  display: flex;
+  flex-direction: row;
+  padding: 5vmin;
+  justify-content: center;
+  align-items: center;
+
+}
+.socialLinks{
+  padding: 3vmin;
+
+}
+
+  /* page styling */
+
+.mainContainer{
+  background: rgb(171, 239, 248);
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  text-align: justify;
+}
+
+.navBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 3vmin;
+}
+
+.nav{
+  font-size: 2.5vmin;
+  padding-left: 5vmin;
+  padding-right: 5vmin;
+}
+
+a:link{
+  color:#807CFA;
+
+}
+a:visited{
+  color:#6fa8e9;
+}
+a:hover{
+  color: white;
+}
+
+
+.gallery{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  padding: 6vmin;
+  justify-content: center;
+  align-items: center;
+}
+
+.galleryImage img{
+  padding: 2vmin;
+  width: 35vmin;
+
+}
